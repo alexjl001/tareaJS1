@@ -1,5 +1,5 @@
 // Ejercicio 1
-/*
+
 	var i = 0;
 	var chk = 0;
 	var suma = 0;
@@ -19,29 +19,29 @@
 	}	
 	console.log("Suma de pares:" + suma);
 
-*/
+
 
 	// Ejercicio 2
 
-/*
-	var i = 0;
+
+	var z = 0;
 	var fact = 0;
 	var numFact = 10;
 	var numFact2 = 0;
 	var cont = 0;
 
-	for (i = numFact; i > 0;  i--) {
+	for (z = numFact; z > 0;  z--) {
 
-		if (i > 1) {
-		numFact = (numFact * (i-1));
+		if (z > 1) {
+		numFact = (numFact * (z-1));
 //		numFact2 = (numFact * (i-1));
 		
 	}
 	cont = cont + 1;
-	console.log("i vale: " + i);
+	//console.log("i vale: " + z);
 
 
-	console.log("numFact vale: " + numFact);
+	//console.log("numFact vale: " + numFact);
 
 	// console.log("numFact vale: " + numFact2);
 	// console.log("chk vale: " + chk);
@@ -51,7 +51,7 @@
 
 
 
-*/
+
 	// Ejercicio 3
 
 	var arreglo = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -65,16 +65,16 @@
 
 		if (i > 1) {
 	//	numFact = (numFact * (i-1));
-//		numFact2 = (numFact * (i-1));
+	//numFact2 = (numFact * (i-1));
 		
 	}
 
 
 	
 	apunta = apunta-1;
-	console.log(arreglo[i]);
+	//console.log(arreglo[i]);
 
-	console.log(arreglo[apunta]);
+	//console.log(arreglo[apunta]);
 	
 	arregloNvo.push(apunta);
 
